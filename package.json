@@ -1,0 +1,25 @@
+{
+  "name": "android-apkinfo-resolver",
+  "version": "1.0.0",
+  "description": "This library parses an apk file to retrieve the application info such as name, packagename, versionCode, version etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:francisakpan/apkinfo-resolver.git"
+  },
+  "keywords": [
+    "aapt",
+    "node-aapt",
+    "android",
+    "apk-info"
+  ],
+  "author": "Francis Akpan",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "util": "^0.12.5"
+  }
+}
